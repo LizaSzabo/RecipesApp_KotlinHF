@@ -9,6 +9,9 @@ class HeaderView : View() {
     override val root = form {
         style {
             paddingLeft = 36
+            paddingRight = 36
+            paddingTop = 12
+            maxWidth = 785.px
         }
         fieldset {
             field {
